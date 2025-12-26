@@ -1,0 +1,35 @@
+# Build artifacts - Arquivos gerados pela compilação
+build/
+*.o
+*.a
+*.so
+*.exe
+*.out
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Editor configs - Configurações específicas de editores
+.vscode/
+.idea/
+.zed/
+*.swp
+*.swo
+*~
+
+# OS specific - Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependências compiladas (se usar submodules ou vcpkg)
+external/*/build/
+vcpkg_installed/
+
+# Backup files
+*.bak
+*.tmp
